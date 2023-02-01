@@ -1,0 +1,16 @@
+name: simplesocket
+description: A simple library to work with Dart sockets.
+version: 0.1.0
+homepage: https://github.com/alexrintt/simplesocket
+issue_tracker: https://github.com/alexrintt/simplesocket/issues
+documentation: https://github.com/alexrintt/simplesocket
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  events_emitter: ^0.5.2
+
+dev_dependencies:
+  lint: ^2.0.1
+  test: ^1.16.0
