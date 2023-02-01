@@ -146,9 +146,9 @@ onNewServerMessageListener = socket.map(String.fromCharCodes).listen(
   Open Source
 </h2>
 <p align="center">
-  <sub>Copyright © 2022-present, Alex Rintt.</sub>
+  <sub>Copyright © 2023-present, Alex Rintt.</sub>
 </p>
-<p align="center">Tic Tac Toe <a href="/LICENSE">is MIT licensed 💖</a></p>
+<p align="center">Simple Socket <a href="/LICENSE">is MIT licensed 💖</a></p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/51419598/169544818-f9cf92e3-f739-462e-a93c-2338730e04a9.png" width="35" />
+  <img src="https://dart.dev/assets/img/shared/dart/logo+text/horizontal/white.svg" width="35" />
 </p>
