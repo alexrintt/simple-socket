@@ -214,7 +214,7 @@ class SimpleSocket extends EventEmitter {
       },
     };
 
-    socket.write('-${base64Encode(jsonEncode(packet).codeUnits)}.');
+    socket.write('-${base64Encode(utf8.encode(jsonEncode(packet)))}.');
   }
 
   void sendMessage(
