@@ -140,6 +140,8 @@ onNewServerMessageListener = socket.map(String.fromCharCodes).listen(
 - How to create TCP message framing for the stream - <https://stackoverflow.com/questions/47382549/how-to-create-tcp-message-framing-for-the-stream>.
 - Dart TCP socket concatenates all 'write' sync calls as a single packet - <https://stackoverflow.com/questions/75314786/dart-tcp-socket-concatenates-all-write-sync-calls-as-a-single-packet>.
 
+<br /><br />
+
 <samp>
 
 <h2 align="center">
@@ -150,5 +152,7 @@ onNewServerMessageListener = socket.map(String.fromCharCodes).listen(
 </p>
 <p align="center">Simple Socket <a href="/LICENSE">is MIT licensed 💖</a></p>
 <p align="center">
-  <img src="https://dart.dev/assets/img/shared/dart/logo+text/horizontal/white.svg" width="35" />
+  <img src="https://user-images.githubusercontent.com/51419598/216178168-82c36f0b-8634-425a-b74c-cb3c1361beb3.png" width="35" />
 </p>
+
+</samp>
