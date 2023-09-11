@@ -6,7 +6,7 @@ issue_tracker: https://github.com/alexrintt/simplesocket/issues
 documentation: https://github.com/alexrintt/simplesocket
 
 environment:
-  sdk: '>=2.18.4 <3.0.0'
+  sdk: ">=2.18.4 <3.0.0"
 
 dependencies:
   events_emitter: ^0.5.2

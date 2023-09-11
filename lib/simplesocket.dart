@@ -167,7 +167,7 @@ class SimpleServerSocket extends EventEmitter {
 /// socket.on<List<int?>>('message', (List<int>? data) {
 ///   if (data == null) return;
 ///
-///   final String message = String.fromCharCodes(data);
+///   final String message = utf8.decode(data);
 ///
 ///   print('The server sent a message: $message');
 /// });
@@ -259,7 +259,7 @@ class SimpleSocket extends EventEmitter {
   String parsed = '';
 
   void _handleServerPacket(List<int> rawPacket) {
-    final String packet = String.fromCharCodes(rawPacket);
+    final String packet = utf8.decode(rawPacket);
 
     final String next = parsed + packet;
 
@@ -327,7 +327,7 @@ class SimpleSocket extends EventEmitter {
     late final dynamic packet;
 
     try {
-      packet = jsonDecode(String.fromCharCodes(base64Decode(rawPacket)));
+      packet = jsonDecode(utf8.decode(base64Decode(rawPacket)));
     } on FormatException {
       packet = null;
     }
